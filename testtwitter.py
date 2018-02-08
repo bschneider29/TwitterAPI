@@ -3,13 +3,13 @@ import tweepy #Must upload tweepy first / pip install tweepy
 import matplotlib.pyplot as plt
 def tweet():
     
-    consumer_key = 'DCy6o4Di0Ger2p6L22uG50abn' #API connection hash
+    consumer_key = '' #API connection hash
 
-    consumer_secret= 'EaQFvNQsSrZ0OfDawlih4vPMoBAJLGir7LcHBrF0jcZNAufgD4' #Specifc hash to my (or a user) account
+    consumer_secret= '' #Specifc hash to my (or a user) account
 
-    access_token='159693786-cpFUGrwuKBop7gzJjXqIVhsPi3Q14PzXx7ejfLTE' #Access hash
+    access_token='' #Access hash
 
-    access_secret='S7DQtcvcyJ5HBixREglqCnltKFkRK3daWDjQgoNqrKOAz' #Connective hash
+    access_secret='' #Connective hash
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret) #Grant authorization from my account to spyder 
 
